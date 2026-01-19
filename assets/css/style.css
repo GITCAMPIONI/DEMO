@@ -210,6 +210,9 @@ h3 {
   #mapa img {
     width: 100%;
   }
-  
+  .card{
+    margin-left: 70px;
+  }
+
 
 }
