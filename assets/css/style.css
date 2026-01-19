@@ -210,12 +210,13 @@ h3 {
   #mapa img {
     width: 100%;
   }
-  main{
+  #main_actividades{
     justify-items: center;
     padding-left: 20px;
   }
 
 
 }
+
 
 
