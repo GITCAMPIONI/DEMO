@@ -203,14 +203,14 @@ h3 {
   margin: 30px;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 400px) {
   #redes a img {
     width: 50px;
     padding-top: 30px;
   }
 
   #mapa img {
-    width: 100%;
+    width: 90%;
   }
 
   #main_actividades {
@@ -218,7 +218,11 @@ h3 {
     padding-left: 20px;
   }
 
-  @media (min-width: 301px) and (max-width: 768px) {
+  @media (min-width: 401px) and (max-width: 768px) {
+    #redes a img {
+    width: 50px;
+    padding-top: 30px;
+  }
     #main_actividades {
       justify-items: center;
       padding-left: 35px;
