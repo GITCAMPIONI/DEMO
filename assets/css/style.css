@@ -12,9 +12,11 @@
   margin: 0;
   box-sizing: border-box;
 }
-html{
+
+html {
   height: 100%;
 }
+
 #cookie-overlay {
   position: fixed;
   top: 0;
@@ -178,7 +180,7 @@ h3 {
   display: flex;
   justify-content: center;
   padding-top: 30px;
-  
+
 }
 
 .card {
@@ -210,25 +212,16 @@ h3 {
   #mapa img {
     width: 100%;
   }
-  #main_actividades{
+
+  #main_actividades {
     justify-items: center;
     padding-left: 20px;
   }
 
-@media (min-width: 301px) and (max-width: 768px) {
-  #redes a img {
-    width: 70px;
-    padding-top: 30px;
-  }
-
-  #mapa img {
-    width: 100%;
-  }
-  #main_actividades{
-    justify-items: center;
-    padding-left: 35px;
+  @media (min-width: 301px) and (max-width: 768px) {
+    #main_actividades {
+      justify-items: center;
+      padding-left: 35px;
+    }
   }
 }
-}
-
-
