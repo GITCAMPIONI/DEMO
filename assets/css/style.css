@@ -210,10 +210,12 @@ h3 {
   #mapa img {
     width: 100%;
   }
-  .card{
-    margin-left: 25px;
+  main{
+    justify-items: center;
+    padding-left: 20px;
   }
 
 
 }
+
 
